@@ -8,6 +8,9 @@ function Home() {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
+        backgroundImage: "url('/imgs/brickwall.png')", // Correct property name
+        backgroundSize: "auto", // Ensures the image covers the entire background
+        backgroundPosition: "center", // Centers the background image
       }}
     >
       <Image src="/imgs/pagina_em.png" alt="" width="500" height="495" />
