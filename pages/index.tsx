@@ -13,7 +13,13 @@ function Home() {
         backgroundPosition: "center", // Centers the background image
       }}
     >
-      <Image src="/imgs/pagina_em.png" alt="" width="500" height="495" />
+      <Image
+        src="/imgs/pagina_em.png"
+        alt=""
+        width="500"
+        height="495"
+        style={{ width: "100vw" }}
+      />
     </div>
   );
 }
